@@ -1703,6 +1703,12 @@ config CHIL360_OC
   	help
     	  Unlock the overclock freq speed
 
+config MSM8625_1151_UNDERCLOCK
+  	bool "Underclock MSM8625-1151 MHz proc"
+  	default n
+  	help
+        Underclock freq speed to 1008 on MSM8x25 with 1151 MHz proc
+
 config MSM_AVS_HW
 	bool "Enable Adaptive Voltage Scaling (AVS)"
 	default n
